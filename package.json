@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "bcrypt": "^4.0.1",
-    "commander": "^2.19.0"
+    "commander": "^2.19.0",
+    "enquirer": "^2.3.4",
+    "lemuro": "^2.0.1"
   },
   "devDependencies": {
     "jest": "^23.6.0"
