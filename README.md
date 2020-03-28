@@ -28,13 +28,7 @@ yarn global add the-scripts
 
 just input `the-scripts`
 
-## Advanced
-
-You can create a `kiraconfig.json` in project, the-scripts will read this config.
-
-You need to define two key `target` and `questions` in this json.
-
-### preview
+## preview
 
 <img width="697" alt="Screen Shot 2020-03-14 at 5 54 03 PM" src="https://user-images.githubusercontent.com/12481935/77827925-84a74380-7153-11ea-98c9-9df02bc86adb.png">
 
