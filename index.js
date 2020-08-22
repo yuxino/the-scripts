@@ -22,7 +22,7 @@ async function main() {
         const keys = Object.keys(data.scripts);
         const prompt = new Select({
           name: "script",
-          message: "Chose one script to execute",
+          message: "chose one script to run",
           choices: keys,
         });
 
