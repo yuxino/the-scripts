@@ -17,12 +17,12 @@ async function main() {
     try {
       const data = JSON.parse(buffer);
       if (data.scripts === undefined) {
-        console.log("😖 not any scripts can be execute");
+        console.log("😖 no script was found in the package.json");
       } else {
         const keys = Object.keys(data.scripts);
         const prompt = new Select({
           name: "script",
-          message: "Pick one script to execute",
+          message: "Chose one script to execute",
           choices: keys,
         });
 
@@ -34,7 +34,7 @@ async function main() {
       if (choice === undefined) {
         console.log("🐦 okkk. bye");
       } else {
-        console.log("😖 package.json has something wrong to be parse");
+        console.log("😖 something went wrong when parsing package.json");
       }
     }
   } else {
