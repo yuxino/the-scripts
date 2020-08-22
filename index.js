@@ -23,7 +23,7 @@ async function main() {
         const prompt = new Select({
           name: "script",
           message: "Pick one script to execute",
-          choices: keys
+          choices: keys,
         });
 
         choice = await prompt.run();
